@@ -1,0 +1,57 @@
+body {
+  text-align: center;
+  background-image: url("astrology-astronomy-background-image-956981.jpg");
+  background-size: cover;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+h1, h2 {
+    text-align: center;
+}
+.blue {
+  animation-name: fade;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  color: blue;
+  font-size: 5rem;
+  opacity: 0;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.scroll {
+  animation-name: scroll;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+  animation-delay: 8s;
+  color: yellow;
+  font-size: 3rem;
+  text-align: justify;
+  margin: auto;
+  position: relative;
+  display: block;
+  perspective: 400px;
+}
+
+@keyframes scroll {
+  0% { 
+      top: 100%;
+      
+  }  
+ 100% {
+    top: -6000px;
+    transform:  translate3d(0px, -1000px, -1000px )
+}
