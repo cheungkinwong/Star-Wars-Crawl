@@ -11,10 +11,6 @@ body {
 h1, h2 {
   text-align: center;
 }
-
-br {
-  margin-bottom: 1em;
-}
 .troll  {
   animation-name: distant;
   animation-delay: 9s;
